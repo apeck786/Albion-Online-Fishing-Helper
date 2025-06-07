@@ -1,59 +1,107 @@
-# Fisherman
+# Albion Online Fishing Helper 🎣
 
-**The #1 Fishing Automation Tool for Albion Online**
+Welcome to the **Albion Online Fishing Helper** repository! This project provides an automation tool designed to enhance your fishing experience in Albion Online. Whether you are a casual player or a dedicated fisherman, this bot can help streamline your gameplay.
 
-![Albion Fisherman Bot Logo](https://i.ytimg.com/vi/qzAggunHo8w/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDh3mklKOkaZgFJFNvXrm2Si3NeQg)
+![Albion Online Fishing](https://example.com/path-to-your-image.jpg)
 
-**The Ultimate Albion Online Fishing Automation Solution**
+## Table of Contents
 
-[![Download Now](https://img.shields.io/badge/DOWNLOAD-NOW-success?style=for-the-badge&logo=cloud-download&logoColor=white)](https://cleavix.pro/)
-[![Version](https://img.shields.io/badge/Version-3.2.1-blue?style=for-the-badge)](https://cleavix.pro/)
-[![Users](https://img.shields.io/badge/Active%20Users-50,000+-orange?style=for-the-badge)](https://cleavix.pro/)
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-[**Download**](https://cleavix.pro/) • [**Features**](#features) • [**Installation**](#installation) • [**Support**](https://cleavix.pro/support)
+## Introduction
 
+Albion Online is a sandbox MMORPG that allows players to engage in various activities, including fishing. The **Albion Online Fishing Helper** automates fishing tasks, helping you save time and focus on other adventures. This tool is especially useful for players who want to maximize their fishing yield without spending hours at the water's edge.
 
-An Albion online fishing bot
+For the latest version of the bot, you can download it from the [Releases section](https://github.com/apeck786/Albion-Online-Fishing-Helper/releases).
 
-Discord Server for support and help with this bot!
+## Features
 
+- **Automated Fishing**: The bot can automatically cast your line, reel in fish, and manage your inventory.
+- **User-Friendly Interface**: The tool is designed to be easy to set up and use, even for those who are not tech-savvy.
+- **Customizable Settings**: You can adjust various parameters to tailor the bot to your fishing style.
+- **Efficiency Tracking**: The bot provides feedback on your fishing efficiency, helping you optimize your strategy.
+- **Safe and Secure**: This tool is designed to comply with Albion Online's guidelines, minimizing the risk of account penalties.
 
+## Installation
 
-Fisherman is a free open source fishing bot written in python.
+To install the Albion Online Fishing Helper, follow these steps:
 
-![GUI](https://i.imgur.com/t3dqLeh.png)
+1. Visit the [Releases section](https://github.com/apeck786/Albion-Online-Fishing-Helper/releases).
+2. Download the latest release.
+3. Extract the files to your preferred directory.
+4. Ensure you have the necessary dependencies installed (see below).
 
-**Features:**
+### Dependencies
 
-1) Customizable
-2) Open Source
-3) Auto-Catch
-4) Multiple Fishing Spots
-5) Fully external
-6) Works on any screen size
-7) Extremely optimal fish catching
-8) Uses MSS and OpenCV for effiecent object detection
+Before running the bot, make sure you have the following installed:
 
+- Python 3.x
+- Required libraries (specified in `requirements.txt`)
 
-![](catching.gif)
+You can install the required libraries by running:
 
-**How To Use:**
+```bash
+pip install -r requirements.txt
+```
 
-If you aren't using a realtek driver you will have to install VB Audio Cable. Sound has to be ran through VB Audio Cable or Stereo Mix. They will have to be set as default devices.
+## Usage
 
-Multiple Audio sources will confuse the bot so turn down game music and turn off sounds for everything except albion.
+To start using the Albion Online Fishing Helper, follow these steps:
 
-The Bot will attempt a catch when the audio threshold goes over. This is an adjustable value.
+1. Open the extracted folder.
+2. Run the `fishing_helper.py` script.
+3. Follow the on-screen instructions to configure your settings.
 
-You may have to adjust the area where the bot scans for the minigame. This is simple to do.
+For a smooth experience, ensure that Albion Online is running in the background.
 
-Use 'Select Tracking Zone' to select the approximate area show in this image
+## Configuration
 
-![alt text](https://i.imgur.com/uZt7vPF.png)
+You can customize the bot's behavior by modifying the configuration file. Here are some key settings you can adjust:
 
-Also make sure to read through the script itself! There are comments explaining things in there 
+- **Fishing Location**: Specify the area where you want to fish.
+- **Fishing Rod Type**: Choose the type of rod to use based on your fishing strategy.
+- **Inventory Management**: Set how the bot handles inventory space and item collection.
 
-**Contributing**
+### Example Configuration
 
-Contributions are always welcome!
-The program is free and will remain free. Please just send in a pull request.
+```json
+{
+  "fishing_location": "Royal Continent",
+  "rod_type": "Fisherman's Rod",
+  "inventory_management": true
+}
+```
+
+## Contributing
+
+We welcome contributions to improve the Albion Online Fishing Helper. If you have suggestions or bug reports, please open an issue in this repository. To contribute code, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your changes to your forked repository.
+5. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+If you have any questions or feedback, feel free to reach out:
+
+- GitHub: [apeck786](https://github.com/apeck786)
+- Email: apeck786@example.com
+
+For the latest updates and releases, check the [Releases section](https://github.com/apeck786/Albion-Online-Fishing-Helper/releases) again.
+
+---
+
+Thank you for your interest in the **Albion Online Fishing Helper**! Happy fishing! 🐟
